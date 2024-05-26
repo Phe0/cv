@@ -2,6 +2,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavItemProps } from ".";
 import Link from "next/link";
+import { Button } from "../button";
 
 interface MobileDrawerProps {
   isOpen: boolean;
@@ -33,15 +34,18 @@ export function MobileDrawer({ isOpen, items, onClose }: MobileDrawerProps) {
             <FontAwesomeIcon className="text-2xl" icon={faXmark} />
           </button>
         </div>
-        <ul className="flex flex-col gap-8 text-xl">
-          {items.map(({ href, title }) => (
-            <li className="flex justify-end" key={title}>
-              <Link onClick={onClose} href={href}>
-                {title}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="flex flex-col gap-8 items-end">
+          <ul className="flex flex-col gap-8 text-xl">
+            {items.map(({ href, title }) => (
+              <li className="flex justify-end" key={title}>
+                <Link onClick={onClose} href={href}>
+                  {title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Button>resume</Button>
+        </div>
       </section>
     </div>
   );
