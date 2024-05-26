@@ -4,7 +4,7 @@ import { NavItemProps, NavbarProps } from ".";
 
 export function DesktopNavbar({ items }: NavbarProps) {
   return (
-    <nav className="hidden sm:flex justify-between max-w-7xl mx-auto py-6 text-black font-bold items-center h-24">
+    <nav className="hidden sm:flex justify-between max-w-7xl mx-auto p-6 text-black font-bold items-center h-24">
       <Link href="/" className="text-xl">
         pedro féo.
       </Link>

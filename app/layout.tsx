@@ -15,10 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={notoSanKr.className}>
-      <body>
-        <Navbar />
-        <main className="max-w-7xl mx-auto px-6">{children}</main>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
