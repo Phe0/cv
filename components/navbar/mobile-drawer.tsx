@@ -14,13 +14,13 @@ export function MobileDrawer({ isOpen, items, onClose }: MobileDrawerProps) {
   return (
     <div
       className={`
-        fixed right-0 top-0 
-        bg-black bg-opacity-60
+        fixed right-0 top-0
         h-full w-full
         transition-transform duration-300 transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
     >
+      <div className="h-full w-full bg-black bg-opacity-60" onClick={onClose} />
       <section
         className={`
         fixed right-0 top-0 
