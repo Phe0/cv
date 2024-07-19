@@ -1,0 +1,30 @@
+[
+  {
+    "startDate": "December 2021",
+    "endDate": "now",
+    "jobDescription": "Developer Consultant",
+    "company": "Thoughtworks",
+    "about": "Accelerated product development by 75% for a major insurance company through the development of a software platform. Led teams in building accessible web applications following WCAG guidelines. Significantly improved account opening for a leading financial firm by drastically reducing processing time. Created user-friendly interfaces and conducted technical training. Implemented software tests using TDD."
+  },
+  {
+    "startDate": "June 2020",
+    "endDate": "August 2021",
+    "jobDescription": "Software Engineer",
+    "company": "Probono Digital",
+    "about": "Developed and maintained web and mobile applications. Designed and implemented backend services. Optimized development workflows through continuous integration and delivery. "
+  },
+  {
+    "startDate": "July 2019",
+    "endDate": "June 2020",
+    "jobDescription": "Software Developer Intern",
+    "company": "React-it Solutions",
+    "about": "Developed and maintained complex web applications. Built scalable backend services to support frontend applications. Implemented efficient team workflows through standardized development processes."
+  },
+  {
+    "startDate": "January 2019",
+    "endDate": "February 2019",
+    "jobDescription": "Summer Job",
+    "company": "CESAR",
+    "about": "Delivered a software MVP in one month by leading a multidisciplinary team. Rapidly gathered requirements and conceptualized a solution with the client. Successfully applied agile methodologies (Scrum, Kanban) for project management. Successfully delivered a proof-of-concept within tight deadlines."
+  }
+]
