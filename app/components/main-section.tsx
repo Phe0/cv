@@ -12,7 +12,7 @@ export function MainSection() {
           software engineer | frontend dev | fullstack dev
         </mark>
       </h2>
-      <p className="w-3/5 min-w-80">
+      <p className="w-3/5 min-w-72">
         I&apos;m a software engineer with a passion for frontend development,
         though I&apos;ve worn many hats and tackled fullstack roles as well.
         Currently, I&apos;m a developer consultant at{" "}
