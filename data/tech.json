@@ -1,24 +1,21 @@
 {
   "useEveryday": [
     "Git",
-    "HTML",
-    "CSS",
-    "JavaScript",
+    "HTML/CSS",
+    "JavaScript/Typescript",
     "Jest",
     "React",
     "Redux",
     "Spring Boot",
     "react-testing-library",
-    "TypeScript",
     "Kotlin"
   ],
   "usedOnTheJob": [
     "Cypress",
     "Docker",
-    "Express",
     "Figma",
     "mongoDB",
-    "Node.js",
+    "Node.js/Express",
     "Python"
   ],
   "messedWith": ["Gatsby", "GraphQL", "tailwindcss", "Vercel"],

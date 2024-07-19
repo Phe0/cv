@@ -2,7 +2,7 @@ import { CustomLink } from "@/components/custom-link";
 
 export function MainSection() {
   return (
-    <section className="flex flex-col justify-center h-[60vh]">
+    <section className="flex flex-col justify-center mb-60">
       <span className="text-black text-sm sm:text-base">hey, I&apos;m</span>
       <h1 className="font-bold text-4xl mb-4 sm:text-6xl sm:mb-6 mt-[-12px]">
         pedro féo
