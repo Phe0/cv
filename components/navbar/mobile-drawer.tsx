@@ -2,7 +2,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavItemProps } from ".";
 import Link from "next/link";
-import { Button } from "../button";
+import { ButtonLink } from "../button-link";
 
 interface MobileDrawerProps {
   isOpen: boolean;
@@ -44,7 +44,13 @@ export function MobileDrawer({ isOpen, items, onClose }: MobileDrawerProps) {
               </li>
             ))}
           </ul>
-          <Button>resume</Button>
+          <ButtonLink
+            href="/pedro_feo_cv.pdf"
+            download="pedro_feo_cv"
+            target="_blank"
+          >
+            resume
+          </ButtonLink>
         </div>
       </section>
     </div>

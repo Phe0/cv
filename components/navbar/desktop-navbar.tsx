@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Button } from "../button";
-import { NavItemProps, NavbarProps } from ".";
+import { NavbarProps } from ".";
+import { ButtonLink } from "../button-link";
 
 export function DesktopNavbar({ items }: NavbarProps) {
   return (
@@ -19,7 +19,13 @@ export function DesktopNavbar({ items }: NavbarProps) {
             </li>
           ))}
         </ul>
-        <Button>resume</Button>
+        <ButtonLink
+          href="/pedro_feo_cv.pdf"
+          download="pedro_feo_cv"
+          target="_blank"
+        >
+          resume
+        </ButtonLink>
       </div>
     </nav>
   );
