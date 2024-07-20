@@ -8,12 +8,12 @@ export interface NavItemProps {
 
 const items: Array<NavItemProps> = [
   {
-    title: "tech",
-    href: "/#tech",
-  },
-  {
     title: "experience",
     href: "/#experience",
+  },
+  {
+    title: "tech",
+    href: "/#tech",
   },
   {
     title: "projects",
