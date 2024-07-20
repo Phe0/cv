@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Mia Ajuda",
+    "description": "University of Brasília students and professors created a platform to connect those in need during the COVID-19 pandemic with willing helpers.",
+    "tags": [
+      "React Native",
+      "NodeJS",
+      "Express",
+      "WebSockets",
+      "MongoDB",
+      "Agile"
+    ],
+    "link": "https://github.com/mia-ajuda"
+  },
+  {
+    "name": "QR Comer",
+    "description": "This project aims to shorten food court lines by offering a single QR code for all restaurant orders.",
+    "tags": ["Vue", "Python", "Microservices", "Postgres", "Agile"],
+    "link": "https://github.com/fga-desenho-2019-2"
+  },
+  {
+    "name": "Kalkuli",
+    "description": "This website helps manage personal finances by categorizing expense photos and generating reports.",
+    "tags": ["ReactJS", "Python", "microservices", "Agile"],
+    "link": "https://github.com/Kalkuli"
+  },
+  {
+    "name": "Police and Thief",
+    "description": "This game features a police officer searching for a thief. You play as the thief, placing obstacles to hinder the officer's progress using a Breadth First Search algorithm.",
+    "tags": ["ReactJS", "Algorithms", "Graphs"],
+    "link": "https://policia-ladrao.netlify.app/"
+  },
+  {
+    "name": "Business Trip",
+    "description": "This project is a business trip planner for Brazil. It uses Dijkstra's algorithm to find the shortest route between cities, ensuring visits to all state capitals along the way.",
+    "tags": ["ReactJS", "Algorithms", "Graphs"],
+    "link": "https://viagemanegocios.netlify.app/"
+  },
+  {
+    "name": "Choose Pokemons",
+    "description": "This project suggests Pokémon trades based on rarity, using a greed algorithm.",
+    "tags": ["ReactJS", "Algorithms", "Greed"],
+    "link": "https://choose-pokemon.netlify.app/"
+  },
+  {
+    "name": "Who wins?!",
+    "description": "Three friends compete to sort random numbers, using a Merge Sort algorithm, the one that does the last move wins.",
+    "tags": ["ReactJS", "Algorithms", "Sort"],
+    "link": "https://quem-ganha.netlify.app/"
+  },
+  {
+    "name": "Minimum Cost",
+    "description": "Find the shortest path from green to red in a random number matrix using dynamic programming.",
+    "tags": ["ReactJS", "Algorithms", "Dynamic Programming"],
+    "link": "https://minimun-cost.netlify.app/"
+  },
+  {
+    "name": "Node Paiting",
+    "description": "Paint a random graph with the fewest colors, ensuring adjacent nodes have different colors.",
+    "tags": ["ReactJS", "Algorithms", "Greed"],
+    "link": "https://node-painting.netlify.app/"
+  }
+]

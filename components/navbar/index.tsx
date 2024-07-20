@@ -12,12 +12,12 @@ const items: Array<NavItemProps> = [
     href: "/#experience",
   },
   {
-    title: "tech",
-    href: "/#tech",
-  },
-  {
     title: "projects",
     href: "/#projects",
+  },
+  {
+    title: "tech",
+    href: "/#tech",
   },
   {
     title: "contact",
